@@ -125,7 +125,7 @@ footer {
     }
 
     .producto {
-       /*display: flex;*/
+       
         border-top: 1px solid #666;
         padding: 15px;
         margin: auto;
@@ -151,7 +151,7 @@ footer {
 
     }
 
-    main, section, article, i {
+    .icono {
         border: 2px solid #39b54a;
         font-style: 16px;
         padding: 5px;
@@ -160,11 +160,8 @@ footer {
         background-color: #FFF;
         border-radius: 50%;
         position: absolute;
-        right: 20px;
-        top: -15px;
-
-
-
+        right: 80px;
+        top: 590px;
     }
 
 
