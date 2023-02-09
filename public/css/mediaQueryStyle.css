@@ -1,25 +1,17 @@
 @media(min-width:361px) {
-
-    .products {
-        display: block;
-        margin: auto;
-        margin-bottom: 20px;
-        width: 90%;
+    article {
+        display: inline;
+        width: 48%;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
     }
+
 
     .main-navbar {
         display: none;
     }
 
-    .producto {
-
-        border-top: 1px solid #ebebeb;
-        padding: 15px;
-        margin: auto;
-        width: 90%;
-
-    }
+    
 
     .descripcion {
         display: none;
@@ -37,6 +29,10 @@
         width: 70%;
         border: 2px solid green;
 
+    }
+
+    .imagen-prod {
+        width: 90%;
     }
 
     .icon-truck {
@@ -59,14 +55,7 @@
 /* ** NAVEGACION TABLET ** */
 
 @media(min-width: 769px) {
-    .product {
-        display: block;
-        margin: auto;
-        width: 90%;
-        border: #ebebeb 3px solid;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-
-    }
+   
 
     .main-header-top-bar {
         display: flex;
@@ -104,9 +93,9 @@
 
 
 @media (min-width: 1200px) {
-    .product {
-        max-width: 90%;
-        border: #ebebeb 3px solid;
+   
+    article {
+        width: 23%;
     }
 
     .logo {
