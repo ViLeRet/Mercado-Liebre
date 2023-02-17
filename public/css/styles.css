@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-  
+
 }
 
 body {
@@ -42,13 +42,15 @@ article img {
     width: 100%;
 }
 
+
+
 .producto {
 
-    
+    display: flex;
     border-top: 1px solid #ebebeb;
     padding: 15px;
     margin: auto;
-    width: 90%;
+    width: auto;
 
 }
 
@@ -74,7 +76,22 @@ article img {
 
 }
 
+.icon-truck {
 
+    position: relative;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    color: #39b54a;
+    bottom: -20px
+}
 
 
 .logo {
